@@ -6,7 +6,69 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e021964-a3cf-43cd-b846-fcdea322c084" name="Default Changelist" comment="前台项目的首次提交" />
+    <list default="true" id="4e021964-a3cf-43cd-b846-fcdea322c084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/util/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/util/Tools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/flow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_reg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_ur_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/bnt_ur_reg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/brandBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/checkout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/compareBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/compareSub.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/continue.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/footerLine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/icon_gou.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/icon_notice.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/lineBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/logo1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/menuBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/more.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/NavBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/box_2Bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/catBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/foucsBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/h3title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/helpTitBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/itemH2Bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/salesBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/salesGoodBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/salesTitBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/searchBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/topNavBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/topNavR.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/pink/uh_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/ur_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/ur_bg1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/images/xml_rss2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/jquery-1.31.2..min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/qiantai/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,16 +80,111 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/qiantai/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/util/Tools.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding>
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/AddGoodServlet.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/Dhuuf.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" />
+        <option value="$PROJECT_DIR$/web/qiantai/css/style.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/util/Tools.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/web/qiantai/jquery-1.31.2..min.js" />
+        <option value="$PROJECT_DIR$/web/qiantai/register.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" />
       </list>
     </option>
   </component>
@@ -38,25 +195,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="980" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,13 +230,62 @@
             <path>
               <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
               <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purchaseforward" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purchaseforward" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purchaseforward" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purchaseforward" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="purchaseforward" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="qiantai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="qiantai" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,13 +293,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/qiantai" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\purchase_forward\web\qiantai" />
+      <recent name="D:\workspace\purchase_forward\src\cn\eight\purchaseforward\util" />
+      <recent name="D:\workspace\purchase_forward\web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,28 +410,40 @@
       <workItem from="1583489102056" duration="666000" />
       <workItem from="1583560637998" duration="3882000" />
       <workItem from="1583564553450" duration="144000" />
-      <workItem from="1583564827091" duration="613000" />
+      <workItem from="1583564827091" duration="1418000" />
+      <workItem from="1583651198549" duration="1005000" />
+      <workItem from="1583659909243" duration="3461000" />
+      <workItem from="1583823306116" duration="9314000" />
+      <workItem from="1583834129909" duration="411000" />
     </task>
+    <task id="LOCAL-00001" summary="前台项目的首次提交">
+      <created>1583565585871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583565585872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5305000" />
+    <option name="totallyTimeSpent" value="20301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73504275" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.26495728" side_tool="true" visible="true" weight="0.2751678" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.47863248" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22792023" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -234,7 +454,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932885" weight="0.3233618" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932885" weight="0.16666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,11 +482,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/Dhuuf.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="438" selection-start-line="438" selection-end-line="439" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.17.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/jquery-1.3.2.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/qiantai/jquery-1.31.2..min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/util/Tools.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
