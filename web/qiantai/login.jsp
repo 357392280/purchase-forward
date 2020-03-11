@@ -4,6 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script >
+		function getCode() {
+
+			var  img=document.getElementById("validateaImg");
+			img.src="userservlet?reqType=validate&a="+new Date();
+
+		}
+	</script>
 </head>
 <body>
 <!--LOGO欢迎信息和登陆注册功能-->
@@ -45,7 +53,8 @@
 <div class="usBox clearfix">
 	<div class="usBox_1 f_l">
 		<div class="logtitle"></div>
-		<form name="formLogin" action="" method="post">
+		<form name="formLogin" action="${pageContext.request.contextPath}/qiantai/userservlet" method="post">
+			<input type="hidden" name="reqType" value="login"/>
 			<table width="100%" border="0" align="left" cellpadding="3" cellspacing="5">
 				<tr>
 					<td width="15%" align="right">用户名</td>
@@ -54,6 +63,14 @@
 				<tr>
 					<td align="right">密码</td>
 					<td><input name="password" type="password" size="25"  class="inputBg"/></td>
+				</tr>
+				<tr>
+					<td align="right">验证码</td>
+					<td>
+						<input name="validateCode" type="text" size="2" />
+						<img id="validateaImg" src="userservlet?reqType=validate" style="position: relative ;top: 5px"/>
+						<input type="button"  value="看不清"size="2" onclick="getCode()"/>${info}
+					</td>
 				</tr>
 				<tr>
 					<td>&nbsp;</td>

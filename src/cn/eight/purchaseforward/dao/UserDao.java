@@ -11,6 +11,28 @@ import java.sql.SQLException;
 public class UserDao {
     private BasicDao dao=new BasicDao();
 
+
+    public boolean queryLoginUser(User user){
+        ResultSet rs=null;
+        PreparedStatement pst=null;
+        boolean result=false;
+        Connection con= DbPool.getConnection();
+        String sql="select count(*) from user where username=?  and password=? and rule=1";
+        try {
+            pst = con.prepareStatement(sql);
+            rs = dao.execQuery(con, pst,user.getUsername(),user.getPassword());
+            if (rs!=null&&rs.next()&&rs.getInt(1)==1){
+                result=true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dao.releaseResourse(rs,pst,con);
+        }
+
+        return result;
+    }
+
     public boolean queryUserByUsername(String username){
         ResultSet rs=null;
         PreparedStatement pst=null;

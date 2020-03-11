@@ -14,7 +14,10 @@
 				$.get("userservlet?username="+uName+"&reqType=checkuser",function (data,status) {
 					if(data=='true'){
 						$("#query_notice").text("请重新选择用户名");
-
+                        $("#username").focus();
+                        $("#username").select();
+					}else {
+						$("#query_notice").text("");
 					}
 				})
 			});

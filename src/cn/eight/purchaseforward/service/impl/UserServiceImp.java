@@ -19,4 +19,10 @@ public class UserServiceImp implements UserService {
     public boolean checkUser(String username) {
         return userDao.queryUserByUsername(username);
     }
+
+    @Override
+    public boolean login(User user) {
+        user.setPassword(Tools.md5(user.getPassword()));
+        return userDao.queryLoginUser(user);
+    }
 }

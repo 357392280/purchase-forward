@@ -9,4 +9,13 @@ import java.util.List;
 public class GoodServiceImp implements GoodService {
     private GoodDao goodDao=new GoodDao();
 
+    @Override
+    public List<String> findAllgoodtype() {
+        return goodDao.queryGoodType();
+    }
+
+    @Override
+    public List<Good> findAllgood(String goodType) {
+        return goodDao.queryGoodByType(goodType);
+    }
 }
