@@ -1,6 +1,7 @@
 package cn.eight.purchaseforward.service.impl;
 
 import cn.eight.purchaseforward.dao.GoodDao;
+import cn.eight.purchaseforward.pojo.CarBean;
 import cn.eight.purchaseforward.pojo.Good;
 import cn.eight.purchaseforward.service.GoodService;
 
@@ -17,5 +18,10 @@ public class GoodServiceImp implements GoodService {
     @Override
     public List<Good> findAllgood(String goodType) {
         return goodDao.queryGoodByType(goodType);
+    }
+
+    @Override
+    public List<Good> findCars(CarBean carBean) {
+        return goodDao.queryCarbean(carBean);
     }
 }

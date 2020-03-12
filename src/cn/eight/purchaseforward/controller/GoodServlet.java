@@ -1,5 +1,6 @@
 package cn.eight.purchaseforward.controller;
 
+import cn.eight.purchaseforward.pojo.CarBean;
 import cn.eight.purchaseforward.pojo.Good;
 import cn.eight.purchaseforward.service.GoodService;
 import cn.eight.purchaseforward.service.impl.GoodServiceImp;
@@ -10,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -28,9 +30,29 @@ public class GoodServlet extends HttpServlet {
            openMain(request,response);
        }else if (reqType.equals("downImg")){
            downImg(request,response);
+       }else if (reqType.equals("addCar")){
+           addCar(request,response);
        }
     }
 
+    private void addCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer id=Integer.valueOf(request.getParameter("goodid"));
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        if (carBean==null){
+            carBean=new CarBean();
+        }
+        carBean.addGood(id);
+        session.setAttribute("car",carBean);
+        genericCardate(request,response,carBean);
+
+    }
+     //把    carbean对象中的购物车的map对象转换成能够在页面上展现的list<good>集合对象
+    private void genericCardate(HttpServletRequest request, HttpServletResponse response,CarBean carBean) throws ServletException, IOException {
+        List<Good> goodlist=goodService.findCars(carBean);
+        request.setAttribute("car",goodlist);
+        request.getRequestDispatcher("flow.jsp").forward(request,response);
+    }
     private void downImg(HttpServletRequest request, HttpServletResponse response) {
         String filename=request.getParameter("filename");
         String path=request.getServletContext().getRealPath("/WEB-INF/upload/"+filename);

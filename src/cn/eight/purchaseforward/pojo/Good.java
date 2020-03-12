@@ -6,6 +6,15 @@ public class Good {
     private Double price;
     private String pic;
     private int id;
+    Integer amout;
+
+    public Integer getAmout() {
+        return amout;
+    }
+
+    public void setAmout(Integer amout) {
+        this.amout = amout;
+    }
 
     public String getGoodname() {
         return goodname;

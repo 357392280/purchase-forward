@@ -7,39 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e021964-a3cf-43cd-b846-fcdea322c084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/GoodServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/upload/tv9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/GoodServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/GoodServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/GoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/GoodDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/pojo/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/pojo/Good.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/UserServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/qiantai/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/qiantai/flow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/flow.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/qiantai/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/qiantai/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +37,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="168">
+              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/qiantai/flow.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="73" column="78" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -74,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="196">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -83,13 +89,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="395">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <state relative-caret-position="144">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,17 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" selection-start-line="1" selection-end-line="3" />
+            <state relative-caret-position="280">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -153,10 +152,13 @@
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" />
-        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" />
         <option value="$PROJECT_DIR$/web/qiantai/main.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" />
+        <option value="$PROJECT_DIR$/web/qiantai/flow.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" />
       </list>
     </option>
@@ -182,7 +184,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,19 +254,19 @@
               <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
               <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="qiantai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="purchase_forward" type="b2602c69:ProjectViewProjectNode" />
               <item name="purchase_forward" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,7 +398,8 @@
       <workItem from="1583823306116" duration="9314000" />
       <workItem from="1583834129909" duration="948000" />
       <workItem from="1583907315941" duration="39000" />
-      <workItem from="1583908137957" duration="12502000" />
+      <workItem from="1583908137957" duration="12638000" />
+      <workItem from="1583974590888" duration="4499000" />
     </task>
     <task id="LOCAL-00001" summary="前台项目的首次提交">
       <created>1583565585871</created>
@@ -413,27 +415,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583834573031</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前台项目的第三次提交">
+      <created>1583920670800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583920670800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33379000" />
+    <option name="totallyTimeSpent" value="38014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7321937" visible="true" weight="0.16577181" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72998136" visible="true" weight="0.16778524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.26780626" side_tool="true" visible="true" weight="0.16577181" />
+      <window_info id="Web" order="7" sideWeight="0.2700186" side_tool="true" visible="true" weight="0.16778524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.47863248" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.07977208" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23504274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,7 +472,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="前台项目的首次提交" />
     <MESSAGE value="前台项目的第二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台项目的第二次提交" />
+    <MESSAGE value="前台项目的第三次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台项目的第三次提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/AddGoodServlet.java" />
@@ -554,33 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -588,24 +572,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
+    <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="73" column="78" selection-start-line="73" selection-start-column="78" selection-end-line="73" selection-end-column="78" />
+        <state relative-caret-position="196">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/flow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="168">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
         </state>
       </provider>
     </entry>

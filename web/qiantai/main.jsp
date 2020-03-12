@@ -90,9 +90,9 @@
 					<c:forEach items="${goodlist}" var="good">
       				<div class="goodsItem">
          				<span class="best"></span>
-           				<a href="flow.jsp">
+           				<a href="goodservlet?reqType=addCar&goodid=${good.id}">
 							<img src="goodservlet?reqType=downImg&filename=${good.pic}" alt="测试商品1" class="goodsimg" /></a>
-           				<p><a href="flow.jsp" title="测试商品1">${good.goodname}</a></p>
+           				<p><a href="goodservlet?reqType=addCar&goodid=${good.id}" title="测试商品1">${good.goodname}</a></p>
            				<font class="f1">￥${good.price}元</font>
         			</div>
 					</c:forEach>
