@@ -1,6 +1,10 @@
 package cn.eight.purchaseforward.pojo;
 
+import cn.eight.purchaseforward.service.GoodService;
+import cn.eight.purchaseforward.service.impl.GoodServiceImp;
+
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CarBean {
@@ -40,5 +44,23 @@ public class CarBean {
         for (int i = 0; i < ids.length; i++) {
             car.put(ids[i],amouts[i]);
         }
+    }
+    public Integer getAmouts(){
+        int amouts=0;
+        if (car!=null){
+            for (Map.Entry<Integer,Integer> entry:car.entrySet()) {
+                amouts+=entry.getValue();
+            }
+        }
+        return amouts;
+    }
+    public Integer getBlance(){
+        int blances=0;
+        GoodService service=new GoodServiceImp();
+        List<Good> cars = service.findCars(this);
+        for (int i = 0; i < cars.size(); i++) {
+            blances+=cars.get(i).getAmout()*cars.get(i).getPrice();
+        }
+        return blances;
     }
 }

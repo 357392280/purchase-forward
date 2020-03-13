@@ -32,7 +32,62 @@ public class GoodServlet extends HttpServlet {
            downImg(request,response);
        }else if (reqType.equals("addCar")){
            addCar(request,response);
+       }else if (reqType.equals("delCar")){
+           delCar(request,response);
+       }else if (reqType.equals("clearCar")){
+           clearCar(request,response);
+       }else if (reqType.equals("modCar")){
+           modCar(request,response);
+       }else if (reqType.equals("flow")){
+           flow(request,response);
+       }else if (reqType.equals("calculate")){
+           calculate(request,response);
        }
+    }
+
+    private void calculate(HttpServletRequest request, HttpServletResponse response) {
+
+    }
+
+
+    private void flow(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        List<Good> goodlist=goodService.findCars(carBean);
+        request.setAttribute("car",goodlist);
+        request.getRequestDispatcher("flow.jsp").forward(request,response);
+    }
+
+    private void modCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String[] goodids = request.getParameterValues("goodids");
+        String[] amounts = request.getParameterValues("amounts");
+        Integer[] goodids_int=new Integer[goodids.length];
+        Integer[] amounts_int=new Integer[amounts.length];
+        for (int i = 0; i < goodids.length; i++) {
+            goodids_int[i]=Integer.valueOf(goodids[i]);
+            amounts_int[i]=Integer.valueOf(amounts[i]);
+        }
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        carBean.modGood(goodids_int,amounts_int);;
+
+        genericCardate(request,response,carBean,session);
+    }
+
+    private void clearCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        carBean.clearCar();
+
+        genericCardate(request,response,carBean,session);
+    }
+
+    private void delCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer id=Integer.valueOf(request.getParameter("goodid"));
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        carBean.removeGood(id);
+        genericCardate(request,response,carBean,session);
     }
 
     private void addCar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -43,12 +98,13 @@ public class GoodServlet extends HttpServlet {
             carBean=new CarBean();
         }
         carBean.addGood(id);
-        session.setAttribute("car",carBean);
-        genericCardate(request,response,carBean);
+
+        genericCardate(request,response,carBean,session);
 
     }
      //把    carbean对象中的购物车的map对象转换成能够在页面上展现的list<good>集合对象
-    private void genericCardate(HttpServletRequest request, HttpServletResponse response,CarBean carBean) throws ServletException, IOException {
+    private void genericCardate(HttpServletRequest request, HttpServletResponse response,CarBean carBean,HttpSession session) throws ServletException, IOException {
+        session.setAttribute("car",carBean);
         List<Good> goodlist=goodService.findCars(carBean);
         request.setAttribute("car",goodlist);
         request.getRequestDispatcher("flow.jsp").forward(request,response);
@@ -90,8 +146,20 @@ public class GoodServlet extends HttpServlet {
             }
              goodList=goodService.findAllgood(goodType);
         }
+        HttpSession session = request.getSession();
+        CarBean carBean=(CarBean)session.getAttribute("car");
+        int amount=0;
+        int blances=0;
+        if (carBean!=null){
+            amount=carBean.getAmouts();
+            blances=carBean.getBlance();
+        }
+        System.out.println(amount);
+        request.setAttribute("amounts",amount);
+        request.setAttribute("blances",blances);
         request.setAttribute("goodtypes",goodTypes);
         request.setAttribute("goodlist",goodList);
         request.getRequestDispatcher("main.jsp").forward(request,response);
+
     }
 }

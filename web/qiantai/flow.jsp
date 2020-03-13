@@ -5,6 +5,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script>
+		function clearCar() {
+			window.location.href="goodservlet?reqType=clearCar&goodid=${good.id}";
+		}
+
+	</script>
 </head>
 <body>
 <!--LOGO欢迎信息和登陆注册功能-->
@@ -27,7 +33,7 @@
 
 <!--顶层功能导航栏-->
 <div id="mainNav" class="clearfix">
-	<a href="main.jsp" class="cur">首页<span></span></a>
+	<a href="${pageContext.request.contextPath}/qiantai/goodservlet?reqType=main" class="cur">首页<span></span></a>
 	<a href="###">买家必看<span></span></a>
 	<a href="###">优惠活动<span></span></a>
 	<a href="flow.jsp">查看购物车<span></span></a>
@@ -45,8 +51,9 @@
 <!--购物车数据显示区-->
 <div class="flowBox">
 	<h6><span>商品列表</span></h6>
-	<form id="formCart" name="formCart" method="post" action="">
+	<form id="formCart" name="formCart" method="post" action="${pageContext.request.contextPath}/qiantai/goodservlet?reqType=modCar">
 		<table width="99%" align="center" border="0" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+<%--			<input type="hidden" name="reqType" value="modCar">--%>
 			<tr>
 				<th bgcolor="#ffffff">商品编号</th>
 				<th bgcolor="#ffffff">商品名称</th>
@@ -57,12 +64,13 @@
 			</tr>
 			<c:forEach items="${requestScope.car}" var="good">
 			<tr>
-				<td bgcolor="#ffffff" align="center">${good.id}</td>
+				<td bgcolor="#ffffff" align="center">${good.id}<input type="hidden" name="goodids" value="${good.id}"></td>
 				<td bgcolor="#ffffff" align="center">${good.goodname}</td>
 				<td bgcolor="#ffffff" align="center">${good.price}</td>
-				<td bgcolor="#ffffff" align="center"><input type="text" value="${good.amout}"/></td>
-				<td bgcolor="#ffffff" align="center">${good.amout*good.price}</td>
-				<td bgcolor="#ffffff" align="center"><a href="##">删除</a></td>
+				<td bgcolor="#ffffff" align="center"><input type="text" name="amounts" value="${good.amout}"/></td>
+				<td bgcolor="#ffffff" align="center" class="money">${good.amout*good.price}</td>
+				<td bgcolor="#ffffff" align="center"><a href="goodservlet?reqType=delCar&goodid=${good.id}">删除</a></td>
+
 			</tr>
 			</c:forEach>
 		</table>
@@ -72,7 +80,7 @@
 					购物金额总计计 ￥0.00元
 				</td>
 				<td align="right" bgcolor="#ffffff">
-					<input type="button" value="清空购物车" class="bnt_blue_1" onclick="" />
+					<input type="button" value="清空购物车" class="bnt_blue_1" onclick="clearCar()" />
 					<input name="submit" type="submit" class="bnt_blue_1" value="更新购物车" />
 				</td>
 			</tr>
@@ -84,7 +92,7 @@
 				<a href="###"><img src="images/continue.gif" alt="continue" /></a>
 			</td>
 			<td bgcolor="#ffffff" align="right">
-				<a href="flow.php-step=checkout.htm"><img src="images/checkout.gif" alt="checkout" /></a>
+				<a href="goodservlet?reqType=calculate"><img src="images/checkout.gif" alt="checkout" /></a>
 			</td>
 		</tr>
 	</table>

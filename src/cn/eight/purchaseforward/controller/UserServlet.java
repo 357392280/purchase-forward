@@ -54,7 +54,7 @@ public class UserServlet extends HttpServlet {
         boolean result = userService.login(user);
         //System.out.println(result);
         if (result){
-            response.sendRedirect("main.jsp");
+            response.sendRedirect("goodservlet?reqType=main");
         }else {
             response.getWriter().print("<script>window.history.back()</script>");
         }
@@ -137,7 +137,7 @@ public class UserServlet extends HttpServlet {
         if(result){
             HttpSession session = request.getSession();
             session.setAttribute("user",user);
-            response.sendRedirect("main.jsp");
+            response.sendRedirect("goodservlet?reqType=main");
 
         }else {
             request.setAttribute("info","注册失败");

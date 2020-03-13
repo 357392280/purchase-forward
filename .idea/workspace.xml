@@ -7,18 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e021964-a3cf-43cd-b846-fcdea322c084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/GoodServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/controller/GoodServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/GoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/dao/GoodDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/pojo/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/pojo/Good.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/GoodService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/eight/purchaseforward/service/impl/GoodServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/qiantai/flow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/flow.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/qiantai/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qiantai/main.jsp" afterDir="false" />
     </list>
@@ -34,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="-447">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/qiantai/flow.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
+            <state relative-caret-position="308">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,14 +48,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="157">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,17 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="140">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -89,15 +70,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="221">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#367#368#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +84,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="381">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/util/DbPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/BasicDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -150,16 +146,16 @@
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" />
-        <option value="$PROJECT_DIR$/web/qiantai/main.jsp" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/Good.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java" />
-        <option value="$PROJECT_DIR$/web/qiantai/flow.jsp" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java" />
+        <option value="$PROJECT_DIR$/web/qiantai/main.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java" />
+        <option value="$PROJECT_DIR$/web/qiantai/flow.jsp" />
       </list>
     </option>
   </component>
@@ -183,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,6 +261,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -399,7 +395,8 @@
       <workItem from="1583834129909" duration="948000" />
       <workItem from="1583907315941" duration="39000" />
       <workItem from="1583908137957" duration="12638000" />
-      <workItem from="1583974590888" duration="4499000" />
+      <workItem from="1583974590888" duration="4810000" />
+      <workItem from="1584061585879" duration="8171000" />
     </task>
     <task id="LOCAL-00001" summary="前台项目的首次提交">
       <created>1583565585871</created>
@@ -422,28 +419,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583920670800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="前台项目的第四次提交">
+      <created>1583979372573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583979372573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38014000" />
+    <option name="totallyTimeSpent" value="46496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72998136" visible="true" weight="0.16778524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7291667" visible="true" weight="0.16979866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.2700186" side_tool="true" visible="true" weight="0.16778524" />
+      <window_info id="Web" order="7" sideWeight="0.27083334" side_tool="true" visible="true" weight="0.16979866" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.47863248" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23504274" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.042735044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,7 +477,8 @@
     <MESSAGE value="前台项目的首次提交" />
     <MESSAGE value="前台项目的第二次提交" />
     <MESSAGE value="前台项目的第三次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台项目的第三次提交" />
+    <MESSAGE value="前台项目的第四次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台项目的第四次提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/AddGoodServlet.java" />
@@ -523,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -572,32 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/GoodService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,38 +584,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/qiantai/flow.jsp">
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/BasicDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="63" column="76" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/service/impl/GoodServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/pojo/CarBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="157">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/dao/GoodDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/util/DbPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="139" column="59" selection-start-line="139" selection-start-column="59" selection-end-line="139" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/eight/purchaseforward/controller/GoodServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="-447">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/qiantai/flow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
